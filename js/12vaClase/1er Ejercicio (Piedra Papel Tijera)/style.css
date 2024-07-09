@@ -1,0 +1,11 @@
+body{
+    display: flex;
+}
+
+.derecha{
+    width: 50vw;
+}
+img{
+    width: 400px;
+    display: none;
+}

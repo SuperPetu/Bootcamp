@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+
+}
+.funny{
+    background-color: rgb(240, 240, 157);
+}
+
+.strength{
+    background-color: rgb(240, 167, 157);
+    display: flex;
+    align-items: last baseline;
+    flex-direction: column;
+}
+
+.sleepness{
+    background-color: rgb(185, 244, 253);
+    display: flex;
+    align-items: last baseline;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.hungry{
+    background-color: rgb(210, 243, 159);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.foto{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    height: 300px;
+    width: auto; /* Mantiene la relación de aspecto */
+}
+
+.container{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 20px;
+    width: 300px;
+    background-color: gray;
+    margin:10px;
+    display: flex;
+    align-items: center;
+}
+
+.barra{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    height: 12px;
+    margin: 7px;
+}
+
+.fuerza{
+    background-color: tomato;
+}
+
+.sleep{
+    background-color: cyan;
+}
+
+.hambre{
+    background-color: greenyellow;
+}
+
+.diversion{
+    background-color: yellow;
+}
+
+button{
+    opacity: 0.8;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.botones{
+    margin: 10px;
+    display: flex;
+    gap: 60px;
+}

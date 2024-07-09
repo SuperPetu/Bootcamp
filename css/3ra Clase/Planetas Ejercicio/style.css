@@ -1,0 +1,153 @@
+html, .box{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.par{
+    border: 1px white;
+}
+
+.box{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+}
+
+
+
+.box{
+    background-color: black;
+
+
+}
+
+
+
+.box-0{
+    
+    width: 350px;
+    height: 350px;
+    background-color: black;
+
+}
+
+.box-1{
+    
+    width: 320px;
+    height: 320px;
+
+}
+
+.box-2{
+
+
+
+    width: 280px;
+    height: 280px;
+}
+
+.box-3{
+
+
+    width: 240px;
+    height: 240px;
+}
+
+.box-4{
+
+
+
+    width: 200px;
+    height: 200px;
+    
+}
+
+.box-5{
+    width: 160px;
+    height: 160px;
+    
+
+}
+
+.box-6{
+    width: 120px;
+    height: 120px;
+    
+}
+
+.box-7{
+
+
+    width: 80px;
+    height: 80px;
+}
+
+.box-8{
+    width: 40px;
+    height: 40px;
+    box-shadow: 140px 10px 0px 10px blue, -20px -50px red, 50px 80px 0px 0px blue, -40px -170px red;
+
+}
+
+.box-8:hover{
+    animation: rotate 1s infinite;
+    -webkit-animation: rotate 1s infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+        background-color: red;
+        box-shadow: 140px 10px 0px 10px blue, -20px -50px red, 50px 80px 0px 0px blue,  -40px -170px red;
+}
+    33% {
+        transform: rotate(120deg);
+        background-color: yellow;
+        -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        box-shadow: 140px 10px 0px 10px blue, -20px -50px red, 50px 80px 0px 0px blue,  -40px -170px red;
+    }
+    66% {
+        transform: rotate(240deg);
+        -webkit-transform: rotate(240deg);
+        -moz-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+        -o-transform: rotate(240deg);
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        box-shadow: 140px 10px 0px 10px blue, -20px -50px red, 50px 80px 0px 0px blue,  -40px -170px red;
+
+
+}
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        width: 40px;
+        height: 40px;
+        background-color: yellow;
+        box-shadow: 140px 10px 0px 10px blue, -20px -50px red, 50px 80px 0px 0px blue,  -40px -170px red;
+
+}
+}
+
+
+
+
+
+

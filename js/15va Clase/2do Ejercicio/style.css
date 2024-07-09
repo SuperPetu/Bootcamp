@@ -1,0 +1,94 @@
+body{
+    background-color:burlywood;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora{
+    background-color: rgb(71, 20, 152);
+    border-radius: 10px;
+    padding: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Press Start 2P';
+    box-shadow: 1px 1px, 2px 2px, 3px 3px, 4px 4px, 5px 5px, 6px 6px, 7px 7px, 8px 8px;
+}
+
+
+.pantalla{
+    background-color: rgb(203, 203, 203);
+    border-radius: 5px;
+    border: 2px black solid;
+    margin: 2px;
+    width: 172px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.matriz button{
+    background-color: white;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+    margin: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.matriz button:hover{
+    background-color: rgb(198, 197, 197);
+}
+
+button{
+    background-color: gray;
+    border-radius: 5px;
+    width: 82px;
+    height: 40px;
+    margin: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(86, 86, 86);
+}
+
+
+
+.matriz .del{
+    background-color: rgb(88, 152, 237); 
+}
+
+.matriz .del:hover{
+    background-color: rgb(62, 108, 168); 
+}
+
+.red{
+    background-color: tomato;
+}
+.red:hover{
+    background-color: red;
+}
+
+.bottom{
+    display: flex;
+    gap: 4px
+}

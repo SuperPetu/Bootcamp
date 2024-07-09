@@ -1,0 +1,60 @@
+*{
+    background-color: whitesmoke;
+}
+
+p{
+    background-color: beige;
+}
+
+#title-1{
+    color: tomato;
+}
+
+.bg-yellow{
+    color:rgb(183, 193, 91)
+}
+
+*[id]{
+    background-color: aquamarine;
+}
+
+*[HREF="https://www.yahoo.com"]{
+    font-size:30px;
+}
+
+*[class^="title"]{
+    font-style: oblique;
+}
+
+*[class|="title"]{
+    color:blue
+}
+
+*[href*="127"]{
+    font-size:33px;
+}
+
+*[href^="http"]{
+    color:green;
+}
+
+a, p, h1{
+    font-style:italic;
+}
+
+main > p{
+    font-size: 14px;
+}
+
+h1+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1~*{
+    background-color:blanchedalmond;
+}
+
+main > *{
+    font-size: 19px;
+}
+

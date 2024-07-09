@@ -1,0 +1,158 @@
+html, .box{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    border: 1px black;
+    border-style: solid;
+}
+
+.impar:hover{
+    background-color: rgb(110, 174, 174);
+}
+.par:hover{
+    background-color: green;
+}
+
+
+
+.box-0{
+    
+    width: 350px;
+    height: 350px;
+    background-color: red;
+
+}
+
+.box-1{
+    
+    width: 320px;
+    height: 320px;
+    background-color: white;
+
+}
+
+.box-2{
+
+
+
+    width: 280px;
+    height: 280px;
+    background-color: red;
+}
+
+.box-3{
+
+
+    width: 240px;
+    height: 240px;
+    background-color: white;
+}
+
+.box-4{
+
+
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+
+.box-5{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    
+
+}
+
+.box-6{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    
+}
+
+.box-7{
+
+
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+.box-8{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.box-8:hover{
+    animation: rotate 1s infinite;
+    -webkit-animation: rotate 1s infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+        background-color: violet;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        box-shadow: 140px 140px violet, -20px -50px green;
+}
+    33% {
+        transform: rotate(120deg);
+        background-color: blue;
+        -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+        -o-transform: rotate(120deg);
+        box-shadow: 140px 140px blue, -20px -50px beige;
+}
+    66% {
+        transform: rotate(240deg);
+        -webkit-transform: rotate(240deg);
+        -moz-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+        -o-transform: rotate(240deg);
+        width: 30px;
+        height: 30px;
+        background-color: yellow;
+        box-shadow: 140px 140px red, -20px -50px blue;
+
+
+}
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        width: 40px;
+        height: 40px;
+        background-color: red;
+        box-shadow: 140px 140px green,  -20px -50px tomato;
+
+}
+}
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+}
+
+header{
+    background-color: red;
+    height: 60px;
+}
+
+nav{
+    background-color: blue;
+}
+
+section{
+    background-color: salmon;
+    width: 63%;
+    height: 600px;
+    float: left;
+    
+}
+
+aside{
+    background-color: violet;
+    height: 600px;
+    width: 33%;
+
+    margin-left:5px;
+    float:right;
+}
+
+footer{
+    clear: both;
+    background-color: greenyellow;
+}

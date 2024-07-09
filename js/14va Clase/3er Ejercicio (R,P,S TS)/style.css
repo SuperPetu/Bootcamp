@@ -1,0 +1,55 @@
+.jugador{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 10px;
+    font-size: 900px;
+    pointer-events: none;
+
+}
+
+.robot{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 10px;
+    font-size: 900px;
+    pointer-events: none;
+
+}
+
+body{
+    background-color:burlywood;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    margin:10px
+}
+
+main{
+    font-size: smaller;
+    height: 100vh;
+}
+
+footer{
+    margin:10px
+}
+
+button{
+    height: 60px;
+    width: 60px;
+}
+
+

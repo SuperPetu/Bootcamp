@@ -1,0 +1,30 @@
+.caja{
+    background-color: cyan;
+
+    width: 200px;
+    height: 200px;
+    overflow:auto;
+    outline: 15px dotted rgb(107, 174, 8);
+    margin: 40px;
+}
+
+.caja:hover{
+    outline: 8px dotted black;
+
+}
+
+.hola{
+    width: 200px;
+    height: 100px;
+    background-color: cyan;
+    overflow: hidden;
+}
+
+
+.adios{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    overflow:auto;
+}
+

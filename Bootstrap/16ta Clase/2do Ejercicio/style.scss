@@ -1,0 +1,49 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+
+
+// modificar el codigo de SCSS
+
+.grande{
+    height: 99vh;
+    width: 99vw;
+}
+@include media-breakpoint-only(xs){
+    .container-fluid{
+        background-color: red;
+    }
+}
+
+@include media-breakpoint-only(sm){
+    .container-fluid{
+        background-color: greenyellow;
+    }
+}
+
+@include media-breakpoint-only(md){
+    .container-fluid{
+        background-color: orange;
+    }
+}
+
+@include media-breakpoint-only(lg){
+    .container-fluid{
+        background-color: gray;
+    }
+}
+
+@include media-breakpoint-only(xl){
+    .container-fluid{
+        background-color: gray;
+    }
+}
+
+@include media-breakpoint-only(xxl){
+    .container-fluid{
+        background-color: rgb(196, 50, 233);
+    }
+}

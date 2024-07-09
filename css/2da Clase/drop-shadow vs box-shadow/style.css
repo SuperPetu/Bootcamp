@@ -1,0 +1,32 @@
+h1{
+    filter: drop-shadow(-5px -3px 4px rgb(0, 72, 255));
+    -webkit-filter: drop-shadow(-5px -3px 4px rgb(0, 72, 255));
+}
+
+span, h2{
+    background-color: yellowgreen;
+    box-shadow: 0px 5px 7px 5px blue;
+}
+
+img:hover {
+    
+    animation: cambioColorSombra 3s infinite alternate;
+    -webkit-animation: cambioColorSombra 3s infinite alternate;
+}
+
+@keyframes cambioColorSombra {
+    0% {
+        filter: drop-shadow(5px 5px 10px red);
+    }
+    25% {
+        filter: drop-shadow(5px 5px 10px orange);
+    }
+    50% {
+        filter: drop-shadow(5px 5px 10px yellow);
+    }
+    75% {
+        filter: drop-shadow(5px 5px 10px green);
+    }
+    100% {
+        filter: drop-shadow(5px 5px 10px blue);
+    }

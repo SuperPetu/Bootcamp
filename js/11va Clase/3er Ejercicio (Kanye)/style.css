@@ -1,0 +1,13 @@
+.botones{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Espacio entre los botones */
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px
+
+}
+
+button{
+    height: 150px;
+}

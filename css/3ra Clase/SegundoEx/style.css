@@ -1,0 +1,58 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 20px;
+    width: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    border: 5px black;
+    border-style: solid;
+}
+
+.box-1{
+    position: relative;
+    top: 45px;
+    right: 15px;
+    
+
+}
+
+.box-2{
+    position: relative;
+    top: 15px;
+    left: 185px;
+}
+
+.box-3{
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    
+
+}
+
+.box-4{
+    position: relative;
+    bottom: 45px;
+    left: 185px;
+}
+
+
+

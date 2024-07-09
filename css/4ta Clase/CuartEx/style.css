@@ -1,0 +1,117 @@
+
+@media (width <= 320px) {
+    body{
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+
+    }
+    .azul{
+        margin-bottom: 6x;
+        margin-bottom: 6px;
+
+        height:18.5vh;
+        background-color: blue;
+    }
+
+    .naranja{
+        margin-bottom: 3px;
+        height:7vh;
+        background-color: orange;
+    }
+
+    .verde{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        height:14vh;
+        background-color: green;
+    }
+    .si{
+        height:8vh;
+        margin-top: 21px;
+        background-color: grey;
+    }
+}
+
+
+@media (321px <= width <= 767px) {
+    body{
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+
+    }
+    .azul{
+        margin-bottom: 6x;
+        margin-bottom: 6px;
+
+        height:10vh;
+        background-color: blue;
+    }
+
+    .naranja{
+        margin-bottom: 3px;
+        height:7vh;
+        background-color: orange;
+    }
+
+    .verde{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        height:20vh;
+        background-color: green;
+    }
+    .gris{
+        height:8vh;
+        width: 49%;
+        display: inline-block;
+        margin-top: 2px;
+        background-color: grey;
+    }
+}
+
+
+
+@media (width >= 768px) {
+    body{
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+
+    }
+    .azul{
+        margin-bottom: 6x;
+        margin-bottom: 20px;
+        display: inline-block;
+
+        width: 32.7vw;
+        height:10vh;
+        background-color: blue;
+    }
+
+    .naranja{
+        display: inline-block;
+        width: 49.3vw;
+        margin-bottom: 20px;
+        height:7vh;
+        background-color: orange;
+    }
+
+    .verde{
+        clear: both;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height:20vh;
+        background-color: green;
+    }
+    .gris{
+        height:8vh;
+        width: 49.7%;
+        display: inline-block;
+        margin-top: 2px;
+        background-color: grey;
+    }
+}

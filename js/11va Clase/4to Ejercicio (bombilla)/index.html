@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bombi">
+        <img id="bomb" src="./fotos/off.jpg" alt="">
+    </div>
+    <div class="inter">
+        <img id="boton" src="./fotos/boff.jpg" alt="">
+    </div>
+    <div id="sliders">
+        <p>Intensidad: <span id="sliderValue"></span></p>
+        <input id="int" type="range" min="20" max="100" value="80" class="slider" id="myRange">
+        <p>Tamaño: <span id="sliderValue"></span></p>
+        <input id="tam" type="range" min="100" max="500" value="300" class="slider" id="myRange">
+        <p>Giro: <span id="sliderValue"></span></p>
+        <input id="gir" type="range" min="-180" max="180" value="0" class="slider" id="myRange">
+      </div>
+    <script src="./jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+
+
+// modificar el codigo de SCSS
+
+@include media-breakpoint-only(md){
+    .container-fluid{
+        background-color: red;
+    }
+}

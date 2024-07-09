@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(237, 191, 247);
+}
+tfoot, span{
+    font-weight: bold;
+    background-color: rgba(0, 200, 255, 0.516);
+}
+body{
+    margin-top: 100px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+    border-width: 5px;
+    border-color: black;
+    border-style:solid;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+th{
+    padding-top: 10px;
+}
+
+tbody td{
+    border:0px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-bottom: 2px;
+    border-left: 1px;
+    border-color: black;
+    border-style:solid;
+}
+
+.largo{
+    padding-left: 45px;
+    padding-right:45px;
+}

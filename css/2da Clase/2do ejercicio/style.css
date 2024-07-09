@@ -1,0 +1,19 @@
+.box{
+    padding:40px;
+   border-left: double 5px black;
+   border-right: dashed 5px blue;
+   border-bottom: solid 5px red;
+   border-top: dotted 5px green;
+
+}
+
+body{
+    margin-left:50px;
+    margin-right:50px;
+
+    height:500px;
+    width: 1000px;
+display: flex;
+align-items: center;
+justify-content: center;
+}

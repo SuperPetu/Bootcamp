@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: tomato;
+    
+}
+
+h1{
+    width:fit-content;
+    background-color: blue;
+}
+
+span:hover{
+    color: blue;
+}
+p::selection{
+    color: wheat;
+    background-color: blueviolet;
+}
+
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: double;
+    column-rule-width: 2px;
+    column-rule: 2px red double;
+    column-rule-color: red;
+
+}
